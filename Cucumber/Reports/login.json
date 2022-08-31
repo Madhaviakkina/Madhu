@@ -1,0 +1,105 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-22T06:22:59.172Z",
+        "line": 5,
+        "name": "Test Login Functionality",
+        "description": "",
+        "id": "test-orange-hrm-application;test-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29700237400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinition.LoginpageTest.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8760044900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter valid username and password",
+            "match": {
+              "location": "StepDefinition.LoginpageTest.user_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user will be on homepage",
+            "match": {
+              "location": "StepDefinition.LoginpageTest.user_will_be_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-22T06:23:38.049Z",
+        "line": 10,
+        "name": "Validating homepage",
+        "description": "",
+        "id": "test-orange-hrm-application;validating-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 84951900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "check the logo",
+            "match": {
+              "location": "StepDefinition.HomepageTest.check_the_logo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20987000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "check the url and Title of homepage",
+            "match": {
+              "location": "StepDefinition.HomepageTest.check_the_url_and_title_of_homepage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homepage"
+          }
+        ]
+      }
+    ],
+    "name": "Test Orange HRM Application",
+    "description": "",
+    "id": "test-orange-hrm-application",
+    "keyword": "Feature",
+    "uri": "file:AllFeatures/login.feature",
+    "tags": []
+  }
+]
